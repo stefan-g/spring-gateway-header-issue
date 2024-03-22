@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: my-service
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+
+server:
+  port: 0
+
+management:
+  server:
+    port: 0
+
+logging:
+  config: classpath:log4j2.xml
+
